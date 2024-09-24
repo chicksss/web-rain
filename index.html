@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NATURE</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -120,13 +121,32 @@
         class="relative md:z-20 z-[-1] grid place-items-center md:flex md:justify-center md:w-full items-center md:text-center"
       >
         <div>
-          <p class="text-1xl text-white font-light font-['Quicksand']">
+          <p 
+          data-aos="fade-down"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          
+          class="text-1xl text-white font-light font-['Quicksand']">
             Explore
           </p>
-          <h1 class="text-7xl md:text-8xl text-white font-extrabold font-['Archivo Black']">
+          <h1 data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+           class="text-7xl md:text-8xl text-white font-extrabold font-['Archivo Black']">
             NATURE
           </h1>
           <p
+
+          data-aos="zoom-in"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          
             class="text-1xl text-white font-light font-['Lexend Exa'] w-full text-justify md:text-center md:mt-5"
           >
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -135,6 +155,12 @@
             deleniti molestiae aliquid ea sunt? Ipsam.
           </p>
           <button
+          data-aos="zoom-in"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          
             class="rounded-lg px-10 py-1 border border-1 bg-transparent text-white mt-5"
           >
             Explore
@@ -484,5 +510,10 @@
 
       fastAnimateCount(1456, 500);
     </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
   </body>
 </html>
